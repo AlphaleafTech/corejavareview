@@ -26,7 +26,7 @@ public class ReviewPartTwo {
 
 
     public void randomStop() {
-        int a = number().numberBetween(1, 50);
+        int a = number().numberBetween(1, 50);  // 1 ~ 49
         System.out.println("Stop at: " + a);
 
         System.out.println("printing up to 50");
@@ -37,8 +37,8 @@ public class ReviewPartTwo {
 
 
     public void randomSkip() {
-        int a = number().numberBetween(1, 20);
-        int b = number().numberBetween(1, 20);
+        int a = number().numberBetween(1, 20); // 1 ~ 19
+        int b = number().numberBetween(1, 20); // 1 ~ 19
         System.out.println("Should skip at: " + a + " and " + b);
 
         System.out.println("printing up to 20");
