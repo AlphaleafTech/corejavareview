@@ -7,10 +7,10 @@
 
 
 
-## 📑`gradePoints`
-The table below describes how the grade for a particular course is determined. Write a program that gives a course grade according to the provided table.
+## 📑`gradePoint`
+The table below describes how the grade for a particular course is determined. Write a program that gives a course grade according to the provided table.  Note that an integer `point` that contains random number between `-10` and `100` is provided for you.
 
-| Points      | Grade       |
+| **`point`**      | Grade       |
 |-------------|-------------|
 | < 0	        | impossible! |
 | 0-49	       | failed      |
@@ -22,8 +22,12 @@ The table below describes how the grade for a particular course is determined. W
 | > 100	      | incredible! |
 
 
-Hint: 
-Use chained `if-else` statement. 
+**Hint:** 
+
+Use `chained if-else` statement. 
+
+<br>
+Make sure that output format is exactly the same as the following sample output:
 
 **Sample Output:**
 ```text
@@ -37,7 +41,7 @@ Grade:  3
 
 
 ## 📑`counting`
-Given the randomly generated number between `10 ~ 34`, print numbers from 0 to the generated random number `a`.   
+Given an integer variable `a` that contains randomly generated number between `10 ~ 34`, print numbers from 0 to the `a` inclusive. Make sure that output format is exactly the same as the following sample output: 
 
 **Sample Output:**
 ```text
@@ -65,7 +69,7 @@ Generated number: 13
 
 
 ## 📑`randomStop`
-Write a code that prints number from `1 ~ 50`. Once that code is complete, now modify the code such that as it prints from `1 ~ 50`, it abruptly stops the printing when the randomly generated number is encountered in the printing process. 
+Write a code that prints numbers from `1 ~ 50`. Once that code is complete, now modify it so that as it prints from `1 ~ 50`, it abruptly stops the printing when a randomly generated number `a` is encountered.  Make sure that output format is exactly the same as the following sample output:
 
 **Sample Output:** 
 
@@ -89,7 +93,7 @@ printing up to 50
 
 
 ## 📑`randomSkip`
-Write a code that prints number from `1 ~ 20`. Once that code is complete, modify the code such that as it prints from `1 ~ 20`, it skips the printing of number that matches with randomly generated number `a` and `b`.
+Write a code that prints numbers from `1 ~ 20`. Once that code is complete, modify it so that as it prints from `1 ~ 20`, it skips the printing of number that matches with randomly generated number `a` and `b`.  Make sure that output format is exactly the same as the following sample output:
 
 **Sample Output:** 
 
@@ -126,7 +130,7 @@ Skipping!
 
 
 ## 📑`countDown`
-Write a code that counts down from randomly generated integer `a` to the `0`. Please make use of `while` loop for this task.  Any other loop mechanisim is not allowed. 
+Write a code that counts down from randomly generated integer `a` to the `0` inclusive. Please make use of `while` loop for this task.  Any other loop mechanism is not allowed.  Make sure that output format is exactly the same as the following sample output:
 
 **Sample Output:** 
 ```text
@@ -155,9 +159,9 @@ Counting down from: 14
 
 ## 📑`fixArrayCode`
 
-When you run the following code, you will get programming error.  Please make a necessary code change to so that extracting the last item will succeed. 
+When you run the following code, you will get programming error.  Please make a necessary code change so that extracting the last item from `fruits` array will succeed. 
 
-Faulty Code:
+**Faulty Code:**
 ```java
 public void fixArrayCode() {
     //                   1         2         3        4         5
@@ -168,7 +172,7 @@ public void fixArrayCode() {
 }
 ```
 
-Expected Output: 
+**Expected Output:** 
 ```text
 Fetched Item: melon
 ```
@@ -179,8 +183,8 @@ Fetched Item: melon
 
 
 ## 📑`sumOfArray`
-Given the random integer array `scores`, use `while` loop to calculate the sum of all number elements it contains and
-display to the console. 
+Given the random integer array `scores`, use a `while` loop to calculate the sum of all number elements it contains and
+display it to the console. Make sure that output format is exactly the same as the following sample output:
 
 **Sample Output:**
 ```text

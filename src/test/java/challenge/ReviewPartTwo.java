@@ -8,7 +8,9 @@ import static stayaway.utils.Data.*;
 public class ReviewPartTwo {
 
 
-    public void gradePoints() {
+    public void gradePoint() {
+        int point = number().numberBetween(-10, 101);
+
         // your code here
 
     }
@@ -24,6 +26,17 @@ public class ReviewPartTwo {
 
 
     public void randomStop() {
+        int a = number().numberBetween(1, 50);
+        System.out.println("Stop at: " + a);
+
+        System.out.println("printing up to 50");
+        System.out.println("-----------------");
+
+        // your code here
+    }
+
+
+    public void randomSkip() {
         int a = number().numberBetween(1, 20);
         int b = number().numberBetween(1, 20);
         System.out.println("Should skip at: " + a + " and " + b);
