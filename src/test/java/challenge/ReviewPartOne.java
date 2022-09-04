@@ -103,5 +103,7 @@ public class ReviewPartOne {
 
     }
 
+    public void averageOfThreeNumber() {
 
+    }
 }//end::class

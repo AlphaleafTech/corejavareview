@@ -25,7 +25,7 @@ Gently down the stream!!!
 ## 📑`neon`
 Write a program to display below String to the console.
 
-Output
+**Output**
 ```text
 **        ***    **********      **             *             **
 **      ***      **        **     **           ***           **
@@ -155,7 +155,7 @@ x = 135
 <br>
 
 
-## 📑`userInput`
+## 📑`UserInputs`
 Go to Java class `challenge.UserInputs.java` and please complete the `main` method so that it asks for user all these test execution related info, and produces an output as you can see from the image below. 
 
 <div style="zoom:80%">
@@ -196,3 +196,64 @@ Value of b: 2
 9 % 2 = 1
 ```
 
+<br>
+<br>
+
+## 📑`printBigger`
+
+Given two number `a` and `b`, where it is generated randomly, complete the method where it always prints the bigger one to the console using control flow statement.
+
+**Sample Output:**
+```text
+a is 56
+b is 17
+
+a is bigger
+```
+
+<br>
+<br>
+
+
+## 📑`compareThreeNum`
+
+Given three numbers `a`, `b`, and `c`, where each of them is generated randomly, print the bigger one to the console using control flow statement. 
+
+**Sample Output:**
+```text
+a is 67
+b is 34
+c is 87
+
+c is bigger
+```
+
+<br>
+<br>
+
+## 📑`VotingMachine`
+Go to `challenge.VotingMachine` and please complete the `main` method. Create a program where it asks for user's age and determines whether they can vote or not. 
+
+**Constraints:**
+* If the user's age is less the `16` then print `You are too young to vote!`.
+* If the user's age is between `17` and `52` then print `You must vote, pay fine otherwise.`.
+* If the user's age is more than `52` but less than `65` then print `It's optional to vote, we recommend you vote.`
+* All the other case, just print `You are too senior to vote!`.
+
+
+Sample Output:
+```text
+This program determines whether you must vote or not.
+-----------------------------------------------------
+Enter you age: 53
+
+It's optional to vote, we recommend you vote.
+```
+
+<br>
+<br>
+
+
+
+
+## 📑`Average of 3 numbers`
