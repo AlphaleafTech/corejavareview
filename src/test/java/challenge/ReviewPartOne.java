@@ -79,7 +79,7 @@ public class ReviewPartOne {
     }
 
 
-    public void baseArithmetics() {
+    public void basicCalculations() {
         int a = number().numberBetween(10, 99);
         int b = number().numberBetween(5, 45);
 
