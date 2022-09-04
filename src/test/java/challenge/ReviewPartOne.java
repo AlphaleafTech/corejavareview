@@ -1,5 +1,8 @@
 package challenge;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.TestInstance;
+
 import static stayaway.utils.Data.*;
 
 
@@ -103,7 +106,13 @@ public class ReviewPartOne {
 
     }
 
+    @Test
     public void averageOfThreeNumber() {
+        double a = number().randomDouble(3, 10, 99);
+        double b = number().randomDouble(3, 10, 99);
+        double c = number().randomDouble(3, 10, 99);
+
+        // your code here
 
     }
 }//end::class

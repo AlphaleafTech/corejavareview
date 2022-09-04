@@ -1,6 +1,6 @@
 
 <div style="text-align: center; color:gray;">
-<h1>Core Java Review Challenges</h1>
+<h1>Core Java Review Part 1</h1>
 </div>
 
 <br>
@@ -256,4 +256,21 @@ It's optional to vote, we recommend you vote.
 
 
 
-## 📑`Average of 3 numbers`
+## 📑`averageOfThreeNumber`
+Given 3 random decimal numbers `a`, `b`, and `c`, calculate and print its average.  Make sure that your output has identical format as following sample output. 
+
+
+**Sample Output:**
+```text
+===OUTPUT===
+a = 60.695
+b = 25.662
+c = 89.548
+
+Average: 58.635
+```
+
+<br>
+<br>
+
+
